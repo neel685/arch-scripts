@@ -29,6 +29,8 @@ bash root/post-chroot.sh
 ```
 and your installation will be done, you can then reboot and install your favourite Desktop Environments.
 
-**Note:** this is only for EFI systems. MBR users can use <a href="https://www.youtube.com/watch?v=QtBDL8EiNZo">this guide</a> 
+**Notes:** 
+- this is only for EFI systems. MBR users can use <a href="https://www.youtube.com/watch?v=QtBDL8EiNZo">this guide.</a>
+- i am not installing any intel/amd ucodes, or gpu utils as everybody has different specifications and this script would render useless if it was targetted to specific configurations. therefore, feel free to fork and edit the script to install your laptop/desktop specific ucodes/gpu utils.
 
 Contributions are always welcome. Just fork and PR
